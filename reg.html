@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <div>
+        <form>
+            <label for="basic ">Enter your Details Below:</label>
+            <ul>                
+                <li><input type="text" placeholder="noname@gmail.com"></li> 
+                <li><input type="password" placeholder="password"></li>
+                <span id="s1">Type a complex password with 8-10 character</span>
+            </ul>
+            
+            <ul>
+                <li><input type="number" placeholder="+91 Phone Number"></li>
+            </ul>
+
+            <hr>
+
+            <label for="basic ">Choose your Profession Below:</label>
+            <ul class="radiobox">
+                <li> <input type="radio" name="profession">Student <input type="radio" name="profession"> Teacher <input type="radio" name="profession" >Developer  </li>
+            </ul>
+            <p>Choose the stage if you are (Student)  
+                <select>
+                <option value="first primary">first primary</option>
+                <option value="second primary">second primary</option>
+               </select>
+           </p>
+
+        <hr>
+        <ul>
+            <li>Enter your Birth Date: <input type="date"></li>
+        </ul>
+
+        <hr>
+
+        <ul>
+            <li><input type="text" placeholder="Any Notes"></li>
+        </ul>
+        <hr>
+    </div>
+
+    <div>
+        <input type="submit" name="Submit">
+        <input type="reset" name="Reset">
+    </div>
+        </form>
+    </div>
+</body>
+</html>

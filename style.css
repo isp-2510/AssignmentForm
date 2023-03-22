@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+
+    height: 600px;
+    width: 500px;
+    border: solid 2px black;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+li{
+    margin-bottom: 10px;
+}
+
+#s1{
+    font-size: larger;
+}
+
+.radiobox{
+    font-size: larger;
+}
